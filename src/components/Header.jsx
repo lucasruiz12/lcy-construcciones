@@ -1,6 +1,7 @@
 import { AppBar, Toolbar, Typography, Button, IconButton, Menu, MenuItem } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
+import logoHeader from '../assets/logo-header.png'
 
 const Header = () => {
     const [anchorEl, setAnchorEl] = useState(null);
@@ -22,8 +23,8 @@ const Header = () => {
     return (
         <AppBar position="sticky" color="default">
             <Toolbar>
-                <Typography variant="h6" sx={{ flexGrow: 1 }}>
-                    Mi Empresa
+                <Typography variant="h6" sx={{ display: "flex", alignItems: "center", flexGrow: 1 }}>
+                    <img src={logoHeader} style={{ height: "50px", width: "50px" }} alt="LCY" />
                 </Typography>
 
                 {/* Menú en pantallas grandes */}
