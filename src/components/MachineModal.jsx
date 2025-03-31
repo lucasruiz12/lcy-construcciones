@@ -6,11 +6,9 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const MachineModal = ({ open, onClose, machine }) => {
 
-    const { name } = machine
+    const { name } = machine;
 
-    const message = `Hola! Quiero consultar disponibilidad y más información acerca del alquiler de la siguiente máquina: 
-    
-    *${name}*`;
+    const message = `Hola! Quiero consultar disponibilidad y más información acerca del alquiler de la siguiente máquina: *${name}*`;
 
     return (
         <Modal open={open} onClose={onClose} aria-labelledby="machine-modal-title">
@@ -42,10 +40,10 @@ const MachineModal = ({ open, onClose, machine }) => {
                 <Typography variant="body1" sx={{ mb: 2, fontSize: "1.2rem" }} dangerouslySetInnerHTML={{ __html: machine.description }} />
                 <Carousel images={machine.images} modal={true} />
                 <br />
-                <div style={{display: "flex", width: "100%", justifyContent: "center"}}>
-                <Button variant="outlined" color="default" href={`https://wa.me/5493885900578?text=${message}`} startIcon={<WhatsAppIcon />} target="_blank">
-                    Contactar por WhatsApp
-                </Button>
+                <div style={{ display: "flex", width: "100%", justifyContent: "center" }}>
+                    <Button variant="outlined" color="default" href={`https://wa.me/5493885900578?text=${message}`} startIcon={<WhatsAppIcon />} target="_blank">
+                        Contactar por WhatsApp
+                    </Button>
                 </div>
             </Box>
         </Modal>
