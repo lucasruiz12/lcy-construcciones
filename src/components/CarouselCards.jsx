@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const Carousel = ({ images, modal }) => {
+const CarouselCards = ({ images, modal }) => {
     return (
         <Swiper navigation pagination={{ clickable: true }} modules={[Navigation, Pagination]}>
             {images.map((src, index) => (
@@ -16,6 +16,7 @@ const Carousel = ({ images, modal }) => {
                         style={{
                             width: modal ? "50%" : "100%",
                             height: modal ? "50%" : "100%",
+                            objectFit: "contain"
                         }}
                     />
                 </SwiperSlide>
@@ -24,4 +25,4 @@ const Carousel = ({ images, modal }) => {
     );
 };
 
-export default Carousel;
+export default CarouselCards;

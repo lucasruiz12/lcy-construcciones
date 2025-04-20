@@ -1,7 +1,7 @@
 import React from "react";
 import { Modal, Box, Typography, IconButton, Button } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
-import Carousel from "./Carousel";
+import CarouselCards from "./CarouselCards";
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const MachineModal = ({ open, onClose, machine }) => {
@@ -38,7 +38,7 @@ const MachineModal = ({ open, onClose, machine }) => {
                     {machine.name}
                 </Typography>
                 <Typography variant="body1" sx={{ mb: 2, fontSize: "1.2rem" }} dangerouslySetInnerHTML={{ __html: machine.description }} />
-                <Carousel images={machine.images} modal={true} />
+                <CarouselCards images={machine.images} modal={true} />
                 <br />
                 <div style={{ display: "flex", width: "100%", justifyContent: "center" }}>
                     <Button variant="outlined" color="default" href={`https://wa.me/5493885900578?text=${message}`} startIcon={<WhatsAppIcon />} target="_blank">

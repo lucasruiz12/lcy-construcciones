@@ -1,7 +1,8 @@
-import { Box, Typography, Container } from "@mui/material";
+import { Typography, Container } from "@mui/material";
 import { motion } from "framer-motion";
+import CarouselSection from "./CarouselSection";
 
-const Section = ({ id, title, content }) => {
+const Section = ({ id, title, content, images = [] }) => {
   return (
     <Container id={id} sx={{ py: 6 }}>
       <motion.div
@@ -12,6 +13,11 @@ const Section = ({ id, title, content }) => {
         <Typography variant="h3" gutterBottom>
           {title}
         </Typography>
+
+        {images.length > 0 && (
+          <CarouselSection images={images} />
+        )}
+
         {content.map((text, index) => (
           <Typography key={index} variant="body1" paragraph dangerouslySetInnerHTML={{ __html: text }} />
         ))}

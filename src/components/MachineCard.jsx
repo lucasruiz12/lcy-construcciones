@@ -1,5 +1,5 @@
 import { Card, CardContent, Typography, Button, Box } from "@mui/material";
-import Carousel from "./Carousel";
+import CarouselCards from "./CarouselCards";
 import InfoIcon from '@mui/icons-material/Info';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import { useState } from "react";
@@ -17,8 +17,8 @@ const MachineCard = ({ machine }) => {
 
     return (
         <Card sx={{ maxWidth: 345, height: 600, display: "flex", flexDirection: "column", mx: "auto" }}>
-            <Box sx={{ flexGrow: 1 }}>
-                <Carousel images={images} />
+            <Box sx={{ flexGrow: 1, display: "flex" }}>
+                <CarouselCards images={images} />
             </Box>
             <CardContent sx={{ display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                 <Typography variant="h5" textAlign="center">{name}</Typography>
