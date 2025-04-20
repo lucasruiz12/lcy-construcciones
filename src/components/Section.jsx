@@ -14,13 +14,14 @@ const Section = ({ id, title, content, images = [] }) => {
           {title}
         </Typography>
 
+        {content.map((text, index) => (
+          <Typography key={index} variant="body1" paragraph dangerouslySetInnerHTML={{ __html: text }} />
+        ))}
+
         {images.length > 0 && (
           <CarouselSection images={images} />
         )}
 
-        {content.map((text, index) => (
-          <Typography key={index} variant="body1" paragraph dangerouslySetInnerHTML={{ __html: text }} />
-        ))}
       </motion.div>
     </Container>
   );

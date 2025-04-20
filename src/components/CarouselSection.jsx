@@ -16,8 +16,7 @@ const CarouselSection = ({ images }) => {
         height: 450,
         borderRadius: "12px",
         overflow: "hidden",
-        marginBottom: "2rem",
-        margin: "2rem 0",
+        marginTop: "1.5rem",
       }}
     >
       {images.map((src, index) => (
