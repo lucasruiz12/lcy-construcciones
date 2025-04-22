@@ -19,7 +19,6 @@ const Footer = () => {
     >
       <Container maxWidth="lg">
         <Grid container spacing={4} justifyContent="space-between">
-          {/* Contacto */}
           <Grid item xs={12} md={4}>
             <Typography variant="h6" gutterBottom>
               Contacto
@@ -38,7 +37,6 @@ const Footer = () => {
             </Typography>
           </Grid>
 
-          {/* Redes Sociales */}
           <Grid item xs={12} md={4}>
             <Typography variant="h6" gutterBottom>
               Redes Sociales
@@ -50,12 +48,10 @@ const Footer = () => {
               <IconButton href="https://facebook.com" target="_blank" rel="noopener" color="inherit">
                 <FacebookIcon />
               </IconButton>
-              {/* Agregá más redes si querés */}
             </Box>
           </Grid>
         </Grid>
 
-        {/* Línea inferior */}
         <Box sx={{ borderTop: "1px solid #444", mt: 4, pt: 2, textAlign: "center" }}>
           <Typography variant="body2" sx={{ display: "flex", justifyContent: "center", alignItems: "center", gap: 1 }}>
             <CopyrightIcon fontSize="small" />

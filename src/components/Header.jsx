@@ -27,13 +27,11 @@ const Header = () => {
                     <img src={logoHeader} style={{ height: "50px", width: "50px" }} alt="LCY" />
                 </Typography>
 
-                {/* Menú en pantallas grandes */}
                 <Button color="inherit" sx={{ display: { xs: "none", md: "block" } }} onClick={() => scrollToSection("about")}>Quiénes Somos</Button>
                 <Button color="inherit" sx={{ display: { xs: "none", md: "block" } }} onClick={() => scrollToSection("construction")}>Construcción</Button>
                 <Button color="inherit" sx={{ display: { xs: "none", md: "block" } }} onClick={() => scrollToSection("machines")}>Alquiler de Máquinas</Button>
                 <Button color="inherit" sx={{ display: { xs: "none", md: "block" } }} onClick={() => scrollToSection("services")}>Servicios de Ingeniería</Button>
 
-                {/* Menú desplegable en pantallas pequeñas */}
                 <IconButton color="inherit" onClick={handleMenuOpen} sx={{ display: { xs: "block", md: "none" } }}>
                     <MenuIcon />
                 </IconButton>

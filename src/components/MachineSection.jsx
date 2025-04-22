@@ -1,4 +1,4 @@
-import { Grid, Container, Typography } from "@mui/material";
+import { Grid, Container } from "@mui/material";
 import MachineCard from "./MachineCard";
 import { machines } from "../helpers/info";
 

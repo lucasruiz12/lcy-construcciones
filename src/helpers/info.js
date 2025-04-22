@@ -28,8 +28,6 @@ export const aboutContent = [
 
 export const constructionContent = [
     "En <b>LCY Construcciones</b>, desarrollamos <b>obras civiles de distintas escalas</b>, adaptándonos a cada proyecto. Desde grandes infraestructuras hasta construcciones más específicas, ofrecemos un servicio integral con compromiso, calidad y eficiencia en cada etapa.",
-    // "Nuestro trabajo abarca un <b>amplio abanico de especialidades</b>, desarrollando proyectos de infraestructura tanto grandes como pequeños. Desde obras de gran envergadura, como <b>defensas para ríos</b>, hasta construcciones más específicas, como <b>canchas de pádel, galpones industriales, viviendas en construcción en seco y oficinas</b>, siempre adaptándonos a las necesidades de cada cliente.",
-    // "Nuestro compromiso es ofrecer <b>calidad, seguridad y cumplimiento</b>, optimizando cada etapa del proceso constructivo para brindar resultados que superen las expectativas.",
 ];
 
 export const machineContent = [
@@ -59,7 +57,6 @@ export const machines = [
 
 export const engineeringContent = [
     "Con nuestra división de ingeniería, en <b>LCY</b> ofrecemos un servicio especializado en <b>análisis estructural</b>  de piezas, conjuntos y sistemas mecánicos, acompañando a nuestros clientes en el desarrollo de nuevos productos.",
-    // "A través del <b>modelado y simulación computacional con elementos finitos (FEM)</b>, evaluamos el comportamiento estructural de los diseños, verificamos su resistencia y proponemos mejoras para optimizar su desempeño. Nuestro enfoque permite reducir costos, mejorar la seguridad y aumentar la eficiencia de los productos antes de su fabricación.",
     "Nuestro equipo, con experiencia en sectores de alta exigencia como el <b>aeroespacial, nuclear y de la construcción</b>, emplea tácticas avanzadas de <b>modelado y simulación computacional (FEM)</b> para evaluar, verificar y optimizar el comportamiento estructural de cada diseño, mejorando así su eficiencia, seguridad y desempeño.",
 ];
 
@@ -68,4 +65,4 @@ export const sectionImages = {
     construction: [CONSTA1, CONSTA2, CONSTB1, CONSTB2, CONSTC1, CONSTC2, CONSTC3],
     machines: [],
     services: [ENGELEV1, ENGPERCH1, ENGRIP1],
-}
+};

@@ -9,7 +9,7 @@ const MachineCard = ({ machine }) => {
 
     const [showModal, setShowModal] = useState(false);
 
-    const { name, images } = machine
+    const { name, images } = machine;
 
     const message = `Hola! Quiero consultar disponibilidad y más información acerca del alquiler de la siguiente máquina: 
     
