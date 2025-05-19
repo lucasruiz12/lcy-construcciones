@@ -2,7 +2,7 @@ import { Box, Container, Grid, Typography, IconButton, Link } from "@mui/materia
 import EmailIcon from "@mui/icons-material/Email";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import LinkedinIcon from "@mui/icons-material/Linkedin";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import CopyrightIcon from "@mui/icons-material/Copyright";
 import { motion } from "framer-motion";
 
@@ -46,7 +46,7 @@ const Footer = () => {
                 <InstagramIcon />
               </IconButton>
               <IconButton href="https://www.linkedin.com/company/lcy-construcciones-y-servicios/" target="_blank" rel="noopener" color="inherit">
-                <LinkedinIcon />
+                <LinkedInIcon />
               </IconButton>
             </Box>
           </Grid>
