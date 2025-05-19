@@ -39,19 +39,22 @@ export const machines = [
         id: 1,
         name: "Retroexcavadora Kobelco SK55SRX-6",
         description: "Ideal para trabajos en terrenos sensibles donde se requiere <b>baja compactación y gran precisión</b>. Equipada con <b>hoyadora y martillo demoledor</b>, es perfecta para excavaciones en espacios reducidos, perforaciones y demoliciones controladas.",
-        images: [KOB1, KOB2, KOB1],
+        images: [KOB1],
+        // images: [KOB1, KOB2, KOB1],
     },
     {
         id: 2,
         name: "Retro Pala 4x4 New Holland B95B",
         description: "Un equipo <b>versátil y potente</b>, ideal para trabajos de excavación, carga y nivelación en todo tipo de terrenos. Gracias a sus <b>implementos de hoyadora y martillo demoledor</b>, es una excelente opción para proyectos de construcción y mantenimiento urbano.",
-        images: [NH1, NH1, NH1],
+        images: [NH1],
+        // images: [NH1, NH1, NH1],
     },
     {
         id: 3,
         name: "Retroexcavadora Volvo EC210DL",
         description: "Diseñada para enfrentar los terrenos más exigentes, esta máquina es perfecta para <b>movimientos de suelo de gran volumen</b> y excavaciones en condiciones extremas. Su tracción sobre orugas de acero le permite operar en superficies irregulares y de alta resistencia.",
-        images: [VOL1, VOL1, VOL1],
+        images: [VOL1],
+        // images: [VOL1, VOL1, VOL1],
     },
 ];
 

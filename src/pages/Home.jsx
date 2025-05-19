@@ -12,7 +12,7 @@ const Home = () => {
             <Header />
             <Section id="about" title="¿Quiénes somos?" content={aboutContent} images={sectionImages["about"]} />
             <Section id="construction" title="Construcción" content={constructionContent} images={sectionImages["construction"]} />
-            <Section id="machines" title="Alquiler de máquinas y movimientos de áridos" content={machineContent} images={sectionImages["machines"]} />
+            <Section id="machines" title="Alquiler de máquinas y movimiento de suelos" content={machineContent} images={sectionImages["machines"]} />
             <Container id="machines" sx={{ py: 6 }}>
                 <MachineSection />
             </Container>
