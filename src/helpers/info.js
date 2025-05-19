@@ -47,7 +47,7 @@ export const machines = [
         name: "Retro Pala 4x4 New Holland B95B",
         description: "Un equipo <b>versátil y potente</b>, ideal para trabajos de excavación, carga y nivelación en todo tipo de terrenos. Gracias a sus <b>implementos de hoyadora y martillo demoledor</b>, es una excelente opción para proyectos de construcción y mantenimiento urbano.",
         images: [NH1],
-        // images: [NH1, NH1, NH1],
+        // images: [NH1, NH1, NH1], 
     },
     {
         id: 3,
